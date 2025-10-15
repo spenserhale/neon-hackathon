@@ -8,6 +8,13 @@
       "when": 1759797736563,
       "tag": "0000_woozy_plazm",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1760496283480,
+      "tag": "0001_white_magma",
+      "breakpoints": true
     }
   ]
 }

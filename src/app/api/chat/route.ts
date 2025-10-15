@@ -3,6 +3,7 @@ import { getUserName } from "@/lib/stack/utils";
 import { openai } from "@ai-sdk/openai";
 import { frontendTools } from "@assistant-ui/react-ai-sdk";
 import { convertToModelMessages, streamText } from "ai";
+import { z } from "zod";
 
 export const maxDuration = 30;
 
@@ -16,7 +17,6 @@ export async function POST(req: Request) {
     system: `You are a helpful assistant. You are currently talking to ${getUserName(user)}`,
     tools: {
       ...frontendTools(tools),
-      // add backend tools here
     },
   });
 
