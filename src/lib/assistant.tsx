@@ -58,6 +58,18 @@ export const Assistant = () => {
             >
               Website Audit
             </Link>
+            <Link
+              href="/perplexity-visibility"
+              className="text-white hover:text-yellow-200 transition-colors duration-200 font-medium"
+            >
+              Perplexity AI
+            </Link>
+            <Link
+              href="/google-ai-overview"
+              className="text-white hover:text-yellow-200 transition-colors duration-200 font-medium"
+            >
+              Google AI Overview
+            </Link>
           </div>
           <div className="relative z-10">
             <ProfileButton />
